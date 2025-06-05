@@ -9,7 +9,7 @@ on:
 env:
   ORIGIN_REPO: notclickable-jordan
   USER: jordanroher
-  REPO: caddy-cloudflare-dns
+  REPO: ubuntu-aws-docker
 
 jobs:
   build:
