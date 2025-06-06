@@ -27,5 +27,4 @@ RUN apt-get update && \
 # Clean up temporary files
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Set the AWS CLI as the entrypoint for the image (optional but convenient)
-ENTRYPOINT ["aws"]
+CMD ["aws"]
