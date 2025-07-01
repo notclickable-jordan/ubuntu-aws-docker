@@ -1,2 +1,4 @@
 # ubuntu-aws-docker
-Ubuntu with the AWS SDK as a Docker image
+Ubuntu with:
+- AWS SDK
+- Node.js 23
